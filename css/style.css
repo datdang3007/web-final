@@ -730,9 +730,8 @@ header .container .content .heart-cart span {
 
 header .container .content .heart-cart .heart-number, header .container .content .heart-cart .cart-number {
   position: absolute;
-  top: -10px;
-  right: 10px;
   z-index: 2;
+  top: -8px;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -742,10 +741,11 @@ header .container .content .heart-cart .heart-number, header .container .content
 header .container .content .heart-cart .heart {
   position: relative;
   z-index: 1;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 header .container .content .heart-cart .heart .heart-number {
+  right: -4px;
   background-color: #bdc3c7;
 }
 
@@ -760,6 +760,7 @@ header .container .content .heart-cart .cart {
 }
 
 header .container .content .heart-cart .cart .cart-number {
+  right: -12px;
   background-color: #fed700;
 }
 
